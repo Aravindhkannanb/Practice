@@ -1,3 +1,5 @@
 git init is used to initialise a git file.
 git status is used to see the history changes made to git file
 git add . is used to add files to git init or used to track files.
+git log command is used to see the history of commit made to the repository.
+git commit command is used to save the changes made in the staging environment to git repository.
