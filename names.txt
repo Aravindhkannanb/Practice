@@ -1,5 +1,33 @@
 git init is used to initialise a git file.
-git status is used to see the history changes made to git file
+git status is used to see the history changes made to git file(modified or unmodified)
 git add . is used to add files to git init or used to track files.
 git log command is used to see the history of commit made to the repository.
 git commit command is used to save the changes made in the staging environment to git repository.
+git restore --staged is used to unstaged the file.
+Stash:
+Git stash is used to save the files that are made modifications and are not ready to commit.before doing
+stash it should be staged.
+to retrieve the stash content use git stash pop
+to clean content in stash use stash clean command
+
+Git:
+Manage projects with Repositories
+Clone a project to work on a local copy
+Control and track changes with Staging and Committing
+Branch and Merge to allow for work on different parts and versions of a project
+Pull the latest version of the project to a local copy
+Push local updates to the main project
+
+Git Staging Environment
+One of the core functions of Git is the concepts of the Staging Environment, and the Commit.
+
+As you are working, you may be adding, editing and removing files. But whenever you hit a milestone or finish a part of the work, you should add the files to a Staging Environment.
+
+Staged files are files that are ready to be committed to the repository you are working on. You will learn more about commit shortly.
+
+git add remote origin url is used to connect remote repository with local repository.
+to push use git push origin master.
+
+Branching and Merging:
+Branches allow you to work on different parts of a project without impacting the main branch. When the work is complete, a branch can be merged with the main project. You can even switch between branches and work on different projects without them interfering with each other.
+it helps us for parallel development methodology.
