@@ -34,3 +34,4 @@ it helps us for parallel development methodology.
 
 git branch-is used to create a new
 git checkout command is used to change the head from one branch to the other.
+git merge branchname is used to merge with main branch
